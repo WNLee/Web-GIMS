@@ -138,27 +138,3 @@ file.getAllFiles = function(root) {
   });
   return result
 }
-
-// file.prototype.rename = function(callback) {
-//     callback = callback || function(){};
-//     var file = {};
-//     for (var key in this.files) {
-//         file = this.files[key];
-//         file[0] ? _inner(file) : _rename(file);
-//     }
-//     callback();
-//     function _rename(obj) {
-//         if (obj.size == 0) {
-//             fs.unlinkSync(obj.path);
-//         } else {
-//             var target_path = './public/info/李伟楠/' + obj.name;
-//             fs.renameSync(obj.path, target_path);
-//         }  
-//     }
-//     function _inner(arr) {
-//         if (arr.length) {
-//             _rename(arr.shift());
-//             _inner(arr);
-//         }
-//     }
-// };
