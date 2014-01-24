@@ -80,7 +80,7 @@ Web-GIMS
 	- `routes`中的`index.js`文件用于服务器与客户端的交互
 
 3. 设计说明
-	>解释权一切归于设计师（大平面）
+	>解释权一切归于设计师（大平面），[静态页面效果](http://geek-lee.github.io/Web-GIMS/)
 
 ## 总结
 
